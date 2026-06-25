@@ -8,7 +8,7 @@ fi
 
 # Resolve the absolute path of the directory containing this script
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
-PY_SCRIPT="wifirst_login.py"
+PY_SCRIPT="login.py"
 ENV_FILE="/etc/wifirst.env"
 SERVICE_FILE="/etc/systemd/system/wifirst-login.service"
 TIMER_FILE="/etc/systemd/system/wifirst-login.timer"

@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-PY_SCRIPT="wifirst_login.py"
+PY_SCRIPT="login.py"
 ENV_FILE="/etc/wifirst.env"
 SERVICE_FILE="/etc/systemd/system/wifirst-login.service"
 TIMER_FILE="/etc/systemd/system/wifirst-login.timer"

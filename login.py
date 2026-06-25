@@ -45,7 +45,7 @@ def get_fragment():
     fragment = next(
         x
         for x in r.json().get("fragments")
-        if x["template"] == "end_user_coupon_signin"
+        if x["template"] == "end_user_freezone_signin"
     )
     logging.info(f'Extracted fragment with id "{fragment["id"]}" from settings page')
 
